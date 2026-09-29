@@ -1,7 +1,7 @@
 module wire_example(
-  input logic a,
-  input logic b,
-  output logic y
+  input wire a,
+  input wire b,
+  output wire y
 );
   assign y = a & b;
 endmodule
