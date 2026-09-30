@@ -28,5 +28,10 @@ module array_types;
     queue.push_back = 10;
     queue.push_back = 20;
     queue.push_back = 30;
+
+    $display("Fixed array   = %h", fixed_array[0]);
+    $display("Dynamic array = %0d", dynamic_array[1]);
+    $display("Associative   = %0d", associative_array[10]);
+    $display("Queue[0]      = %0d", queue[0]);
   end
 endmodule
