@@ -22,6 +22,8 @@ module struct_basic;
     $display("Updated Valid = %b", packet.valid);
     $display("Updated Error = %b", packet.error);
 
+    $finish;
+
   end
 endmodule
 
